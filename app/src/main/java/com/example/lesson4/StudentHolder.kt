@@ -1,9 +1,7 @@
 package com.example.lesson4
 
 import android.content.Context
-import android.media.Image
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
@@ -24,7 +22,7 @@ class StudentHolder(parent: ViewGroup, context: Context) : RecyclerView.ViewHold
 
     fun bind(item: ListItem){
         val index = item as ListItem.StudentItem
-        var fio = index.name+index.secondName
+        var fio = index.name+" "+index.secondName
 
         studentFIO?.text = fio
         studentDescription?.text = index.description
