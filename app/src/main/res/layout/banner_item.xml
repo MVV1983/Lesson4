@@ -39,7 +39,7 @@
         android:layout_marginBottom="11dp"
         android:clickable="true"
         android:gravity="center"
-        android:text="ПРИНЯТЬ"
+        android:text="@string/ПРИНЯТЬ"
         android:textColor="#6202EE"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +56,7 @@
         android:layout_marginBottom="11dp"
         android:clickable="true"
         android:gravity="center"
-        android:text="ОТКЛОНИТЬ"
+        android:text="@string/ОТКЛОНИТЬ"
         android:textColor="#6202EE"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,6 +72,7 @@
         app:icon="@drawable/ic_banner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Banner" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

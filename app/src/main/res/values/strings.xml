@@ -2,4 +2,6 @@
     <string name="app_name">Lesson4</string>
     <string name="add">add</string>
     <string name="focusstart">FocusStart</string>
+    <string name="ПРИНЯТЬ">ПРИНЯТЬ</string>
+    <string name="ОТКЛОНИТЬ">ОТКЛОНИТЬ</string>
 </resources>
